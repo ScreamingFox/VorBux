@@ -6,7 +6,7 @@ I WARNDED YOU!!
 # Info
 - [About](#About)
 - [Installation](#Installation)
-- 
+
 
 ## About
 Are you sick of having to pay for more robux AGIAN?!?!?! well use my super cool program to 
