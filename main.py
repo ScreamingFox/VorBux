@@ -7,14 +7,25 @@ import pyautogui
 
 
 ##Startup motd here 
-op = open('motd')
-for each_line in op:
-    print(each_line)
+##op = open('motd')
+##for each_line in op:
+  ##  print(each_line)
+
+
+start = open('motd', 'r')
+file_contents = start.read()
+print(file_contents)
+
+
+
+
 print("-------------------------------------------------------------------------")
-print("Version 1.0.0 BETA")
-print("Hello and welcome to VorBux created by me Vortex everyones #1 fuzzbutt XD")
-print("before we will allow you to start with our program, we are NOT ressbosable for any sort of")
-print("ban or timeout due to YOUR use of this")
+print("Version 1.2.0 BETA")
+print("--------------")
+print("|DISCLAMER!!!|")
+print("--------------- please note there is a possiblity that you may be banned")
+print("for using this software! you must agree that you understand the risks of this ")
+print("and im not resosable for acount lose!!!")
 
 ##first input:3
 terms = input("y/n?")
@@ -25,7 +36,8 @@ if terms == "y":
     print("2# Fluke")
     print("3# Telephone")
     print("4# Odin")
-    print("#5 custom path")
+    print("5# custom path")
+    print("Yes i am a furry LOL")
     selct = input("Select list option ")
     if selct == "1":
         print("Majria")
@@ -38,6 +50,9 @@ if terms == "y":
             time.sleep(3)
             print("starting")
             #def sendmain():
+        start1 = open('processMotd.txt', 'r')
+        fc = start1.read()
+        print(fc)
         text = open('Majria')
         for each_line in text:
             pyautogui.typewrite(each_line)
@@ -47,7 +62,24 @@ if terms == "y":
 
     if selct == "2":
         print("Fluke")
+        
+        input("press enter when ready to start")
+        for counter in range(1, 5):
+
+            ##time
+            print(counter)
+            time.sleep(3)
+            print("starting")
+            #def sendmain():
+        text = open('Fluke')
+        for each_line in text:
+            pyautogui.typewrite(each_line)
+            pyautogui.press('enter')
+            print("Atteiton!: VorBux sleep for 5 till next attempt....")
+            time.sleep(5)
+
     if selct == "3":
+
         print("Telephone")
     if selct == "4":
         print("odin")
