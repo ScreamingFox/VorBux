@@ -50,7 +50,7 @@ if terms == "y":
             time.sleep(3)
             print("starting")
             #def sendmain():
-        start1 = open('processMotd.txt', 'r')
+        start1 = open('processMotd.txt', encoding='utf-8')
         fc = start1.read()
         print(fc)
         text = open('Majria')
