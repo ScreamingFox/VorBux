@@ -17,8 +17,7 @@ file_contents = start.read()
 print(file_contents)
 
 
-start1 = open('processMotd.txt', 'r')
-fc = start1.read()
+
 
 print("-------------------------------------------------------------------------")
 print("Version 1.2.0 BETA")
@@ -51,13 +50,32 @@ if terms == "y":
             time.sleep(3)
             print("starting")
             #def sendmain():
-y
-
-            print(fc)
+        start1 = open('processMotd.txt', encoding='utf-8')
+        fc = start1.read()
+        print(fc)
         text = open('Majria')
         for each_line in text:
             pyautogui.typewrite(each_line)
             pyautogui.press('enter')
+            time.sleep(3)
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+            pyautogui.press('Backspace')
+
             print("Atteiton!: VorBux sleep for 5 till next attempt....")
             time.sleep(5)
 
@@ -76,6 +94,7 @@ y
         for each_line in text:
             pyautogui.typewrite(each_line)
             pyautogui.press('enter')
+            pyautogui.keyDown('ctrl')
             print("Atteiton!: VorBux sleep for 5 till next attempt....")
             time.sleep(5)
 
@@ -85,8 +104,7 @@ y
     if selct == "4":
         print("odin")
     if selct == "5":
-        inpt = input("Type file destnation:")
-        import inpt
+        print("telephone")
 
 
     
