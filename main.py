@@ -17,7 +17,8 @@ file_contents = start.read()
 print(file_contents)
 
 
-
+start1 = open('processMotd.txt', 'r')
+fc = start1.read()
 
 print("-------------------------------------------------------------------------")
 print("Version 1.2.0 BETA")
@@ -50,9 +51,9 @@ if terms == "y":
             time.sleep(3)
             print("starting")
             #def sendmain():
-        start1 = open('processMotd.txt', encoding='utf-8')
-        fc = start1.read()
-        print(fc)
+y
+
+            print(fc)
         text = open('Majria')
         for each_line in text:
             pyautogui.typewrite(each_line)
